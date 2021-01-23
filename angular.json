@@ -28,6 +28,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/highlight.js/styles/vs2015.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "rxjs-visualizer"
+    }
+  },
+  "defaultProject": "rxjs-visualizer",
+  "cli": {
+    "analytics": "fe460f01-1660-4d17-8627-57d51d30cbce"
+  }
 }
